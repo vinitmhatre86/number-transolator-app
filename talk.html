@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speak</title>
+    <style>
+        *{
+           box-sizing: border-box;
+            margin:0px;
+            padding:0px;
+        }
+nav{
+    text-align: center;
+    font-size: x-large;
+    padding: 1.5rem;
+    background-color:gray;
+    border-radius: 0px 0px 1rem 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    height: 100px;
+}
+
+
+        
+
+        #text {
+            
+            display: block;
+           width: 600px;
+            height: 200px;
+            margin: auto;
+            padding:60px 20px;
+            font-size: 20px;
+
+        }
+.text{
+color:yellow;
+font-weight: bold;
+           text-align: center;
+            font-size: 40px;
+            margin: 20px 0px;
+}
+
+        #button {
+            font-size: 15px;
+            border: 2px solid;
+            display: block;
+            margin: 20px auto;
+            padding: 20px 30px;
+
+        }
+.output{
+    width: 500px;
+            height: 150px;
+            margin: auto;
+            padding:60px 20px;
+            border: 3px solid black;
+            background-color:white ;
+            margin-bottom: 30px;
+}
+
+body{
+    background-image: url("https://www.bernardmarr.com/img/5%20Ways%20To%20Present%20Data%20To%20People%20Who%20Are%20Scared%20of%20Numbers.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+footer{
+    background-color: yellow;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align: center;
+    margin-top: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1 class="heading">Number Translator </h1>
+    </nav>
+
+    <section class=section>
+        <h1 class=text>Enter the Number</h1>
+    <textarea id="text" placeholder="Enter your Number here"></textarea>
+    <button id=button  >Translated</button>
+
+<div class=text>Number Translator to words </div>
+
+    <div class="output">
+    </div>
+</section>
+    <footer>
+      <p>  Do you want to know number? Use the translator to convert your text to numbers.</p>
+    </footer>
+    <script src="talk.js">
+    </script>
+</body>
+
+</html>
